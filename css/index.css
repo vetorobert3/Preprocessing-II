@@ -169,7 +169,9 @@ img {
   margin: 0 auto;
 }
 .navigation {
-  margin: 0px 391.5px 0px 391.5px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 .navigation .nav {
   display: flex;
@@ -231,4 +233,10 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  border: 0px solid black;
+  background-color: #268580;
+  color: white;
+  font-size: 2rem;
 }
