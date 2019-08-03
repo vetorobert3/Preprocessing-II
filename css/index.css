@@ -168,6 +168,13 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  margin: 0px 391.5px 0px 391.5px;
+}
+.navigation .nav {
+  display: flex;
+  justify-content: flex-end;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
