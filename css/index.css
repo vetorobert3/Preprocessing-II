@@ -268,3 +268,12 @@ img {
   background-color: #fff;
   border-top: 1px dashed #8c8c8c;
 }
+@media (max-width: 500px) {
+  .home body {
+    margin: 2%;
+  }
+  .home .navigation {
+    display: flex;
+    flex-direction: column;
+  }
+}
