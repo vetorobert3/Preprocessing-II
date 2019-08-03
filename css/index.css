@@ -235,8 +235,14 @@ img {
   margin-bottom: 30px;
 }
 .home .btn {
+  width: 80%;
+  height: 4rem;
   border: 0px solid black;
   background-color: #268580;
   color: white;
   font-size: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
